@@ -1,0 +1,132 @@
+{
+  "name": "البُراق — منصّة النقل الذكي",
+  "short_name": "البُراق",
+  "description": "منصّة النقل الذكي الشاملة: تكسي بالعدّاد، خطوط بين المحافظات، نقل طلاب المدارس، وبريد سريع — مع تتبّع مباشر ومحفظة إلكترونية",
+  "id": "alburaq-iq",
+  "icons": [
+    {
+      "src": "assets/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F5EFE3",
+  "theme_color": "#F5EFE3",
+  "dir": "rtl",
+  "lang": "ar",
+  "orientation": "any",
+  "scope": "./",
+  "categories": [
+    "travel",
+    "navigation",
+    "business",
+    "maps"
+  ],
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "🚗 اطلب تكسي",
+      "short_name": "تكسي",
+      "url": "./index.html?go=taxi",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "🛣️ بين المحافظات",
+      "short_name": "خطوط",
+      "url": "./index.html?go=line",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "🧭 الملاحة",
+      "short_name": "ملاحة",
+      "url": "./index.html?go=nav",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "🤖 المساعد الذكي",
+      "short_name": "المساعد",
+      "url": "./index.html?go=ai",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/shot-phone.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "الشاشة الرئيسية على الهاتف"
+    },
+    {
+      "src": "assets/shot-wide.png",
+      "sizes": "1366x768",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "نسخة اللابتوب"
+    }
+  ]
+}
